@@ -1,0 +1,97 @@
+#title1{
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #0099ff;
+    transition: color 0.3s;
+}
+#title1:hover{
+    color: #0099ff;
+}
+#titleImg{
+    box-shadow:0px 0px 40px rgb(192, 255, 255);
+    transition:transform 0.5s,box-shadow 0.5s;
+}
+#titleText1{
+    color: rgb(255, 255, 255);
+    font-size:20px;
+}
+.firstWord{
+    font-size:40px;
+    text-shadow: 0 0 4px #cce94d;
+    transition: color 0.3s
+}
+.firstWord:hover{
+    color: #cce94d;
+}
+#ah1{
+    font-size: 30px;
+    text-shadow: 0 0 4px #e94d96;
+    transition: color 0.3s;
+}
+#ah1:hover{
+    color: #e94d96;
+}
+#ah2{
+    font-size: 30px;
+    text-shadow: 0 0 4px #4890f0;
+    transition: color 0.3s;
+}
+#ah2:hover{
+    color: #4890f0;
+}
+#ah3{
+    font-size: 30px;
+    text-shadow: 0 0 4px #33dd74;
+    transition: color 0.3s;
+}
+#ah3:hover{
+    color: #33dd74;
+}
+#ah4{
+    font-size: 25px;
+    text-shadow: 0 0 4px #9933dd;
+    transition: color 0.3s;
+}
+#ah4:hover{
+    color: #9933dd;
+}
+.box0{
+    transition:transform 0.7s;
+    transition-timing-function:ease-out ;
+    background-color: #ececec;
+}
+#titleImg:hover{
+    animation-timing-function:ease-in-out;
+    box-shadow:0px 0px 40px rgb(192, 255, 255),0px 0px 40px rgb(192, 255, 255);
+    transform:matrix3d(
+        1,0,0,0,
+        0,1,0,0,
+        0,0,1,0,
+        0,0,0,0.9
+        );
+
+    /* animation:shake 0.3s linear infinite; */
+}
+.shake:hover{
+    animation:shake 0.3s linear infinite;               /*DO YOU WANT TO SHAKE?*/   /*I LOVE SHAKE!*/
+}
+@keyframes shake {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(-15deg);}
+    75%{transform: rotate(15deg);}
+    100%{transform: rotate(0deg);}
+}
+.shake2:hover{
+    animation:shake2 0.2s linear;
+}
+@keyframes shake2 {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(-5deg);}
+    75%{transform: rotate(5deg);}
+    100%{transform: rotate(0deg);}
+}
+.roll:hover{
+    animation:roll 0.3s linear;
+}
+@keyframes roll {
+    100%{transform:rotate(360deg);}
+}
