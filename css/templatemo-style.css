@@ -337,6 +337,26 @@ p {
     background: none;
     color: #ACA633;
 }
+.red-btn {
+    background:#d63031;
+    border:1px solid #d63031;
+    color:#fff;
+}
+.red-btn:hover,
+.red-btn:focus {
+    background: none;
+    color: #d63031;
+}
+.pumpkin-btn {
+    background:#d35400;
+    border:1px solid #d35400;
+    color:#fff;
+}
+.pumpkin-btn:hover,
+.pumpkin-btn:focus {
+    background: none;
+    color: #d35400;
+}
 .green-btn {
     background:#168887;
     border:1px solid #168887;

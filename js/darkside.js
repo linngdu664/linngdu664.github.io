@@ -40,6 +40,15 @@ function DDF(){
     document.getElementById("box5Img").src="images/-2.png";
     document.getElementById("box3Img").src="images/-3.jpg";
     document.getElementById("box1Img").src="images/-4.jpg";
+    $("#btn1").removeClass("green-btn");
+    $("#btn1").addClass("red-btn");
+    $("#btn2").removeClass("green-btn");
+    $("#btn2").addClass("red-btn");
+    $("#btn3").removeClass("dark-blue-btn");
+    $("#btn3").addClass("pumpkin-btn");
+    $("#btn4").removeClass("dark-blue-btn");
+    $("#btn4").addClass("pumpkin-btn");
+
 }
 
 
@@ -59,4 +68,12 @@ function W(){
     document.getElementById("box5Img").src="images/4.png";
     document.getElementById("box3Img").src="images/3.jpg";
     document.getElementById("box1Img").src="images/2.jpg";
+    $("#btn1").addClass("green-btn");
+    $("#btn1").removeClass("red-btn");
+    $("#btn2").addClass("green-btn");
+    $("#btn2").removeClass("red-btn");
+    $("#btn3").addClass("dark-blue-btn");
+    $("#btn3").removeClass("pumpkin-btn");
+    $("#btn4").addClass("dark-blue-btn");
+    $("#btn4").removeClass("pumpkin-btn");
 }

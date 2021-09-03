@@ -1,25 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
     <link rel="shortcut icon" href="./images/0.ico" />
     <link rel="bookmark"href="./images/0.ico" />
     <title>前端项目</title>
+    <style>
+        body{
+            background-image:linear-gradient(150deg, #34ace0, #227093);
+            color: #f7f1e3;
+            font-family: 黑体;
+            margin-bottom: 200px;
+        }
+        a{
+            color: #f7f1e3;
+        }
+        a:hover{
+            color: #fbc531;
+        }
+        #back1{
+            color: #f7f1e3;
+            position: absolute;
+            padding-top: 40px;
+            font-size: 30px;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
+        }
+        #title1{
+            padding: 100px;
+            justify-content: center;
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
+        }
+        .auto-image{
+            width: 100%;
+            height: auto;
+        }
+        .box0{
+            text-align: center;
+            transition: all 0.3s;
+            background-color: rgb(255, 255, 255);
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-bottom: 100px;
+            min-height:220px;
+            box-shadow:5px 5px 5px rgba(0, 0, 0, 0.589);
+            border: 3px solid rgb(255, 255, 255);
+        }
+        .box0:hover{
+            transform:matrix3d(
+            1,0,0,0,
+            0,1,0,0,
+            0,0,1,0,
+            0,-20,0,0.9
+            );
+            box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.589);
+            border: 3px solid #fbc531;
+        }
+
+        .box0>p{
+            height: 25%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(0, 0, 0);
+            font-family:圆体;
+            font-weight: 600;
+            color:#227093;
+        }
+    </style>
 </head>
 <body>
-    <p style="font-size: xx-large;">这里什么都没有。<br><br>等待下一次网站更新我会加东西进来。</p>
-
-
-
-
-
-
-
-
+    <div class="container">
+        <section id="back1">
+            <a href="./index.html#bianCheng">返回</a>
+        </section>
+        <section id="title1">
+            <p>前端小项目</p>
+        </section>
+        <section class="col-lg-12 col-md-12 content ">
+            <a href="./programTest/project1/html.html" class="col-lg-2 col-md-2 box0">
+                <img id="img1" src="./programTest/img/1.png" class="auto-image">
+                <p>CSS 3D盒子</p>
+            </a>
+            <a href="" class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 box0">
+                <img id="img1" src="./images/1.jpg" class="auto-image">
+                <p>空</p>
+            </a>
+            <a href="" class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 box0">
+                <img id="img1" src="./images/1.jpg" class="auto-image">
+                <p>空</p>
+            </a>
+            <a href="" class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 box0">
+                <img id="img1" src="./images/1.jpg" class="auto-image">
+                <p>空</p>
+            </a>
+            <a href="" class="col-lg-2 col-md-2 box0">
+                <img id="img1" src="./images/1.jpg" class="auto-image">
+                <p>空</p>
+            </a>
+            <a href="" class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 box0">
+                <img id="img1" src="./images/1.jpg" class="auto-image">
+                <p>空</p>
+            </a>
+            <a href="" class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 box0">
+                <img id="img1" src="./images/1.jpg" class="auto-image">
+                <p>空</p>
+            </a>
+            <a href="" class="col-lg-2 col-md-2 col-lg-offset-1 col-md-offset-1 box0">
+                <img id="img1" src="./images/1.jpg" class="auto-image">
+                <p>空</p>
+            </a>
+           
+        </section>
+    </div>
 
 
 
@@ -27,5 +127,18 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>
+    <script>
+        var box0Length = document.getElementsByClassName("box0").length;
+        var box = document.getElementsByClassName("box0");
+        keepScale();
+        window.onresize=keepScale;
+        function keepScale(){
+            for(let i=0;i<box0Length;i++){
+                box[i].style.height=parseInt((document.getElementById("img1").width/3)*4)+"px";
+                console.log("shit");
+            }
+            console.log("ti works")
+        }
+    </script>
 </body>
 </html>
