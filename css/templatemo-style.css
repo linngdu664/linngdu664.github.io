@@ -172,12 +172,16 @@ p {
     color: #2FACFF;
 }
 
-.deep-dark-btn,
+.deep-dark-btn{
+    background: #0e0f0f;
+    color: rgb(255, 0, 0);
+    border: 2px solid #ff0000;
+    float: right;
+}
 .deep-dark-btn:focus{
     background: #0e0f0f;
     color: rgb(255, 0, 0);
-    border: 2px solid #ff0000;    
-
+    border: 2px solid #ff0000;
 }
 .deep-dark-btn:hover{
     transform:matrix3d(
@@ -213,7 +217,12 @@ p {
         );
 }
 
-.deep-dark-btn-on,
+.deep-dark-btn-on{
+    background: #0e0f0f;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    float: right;
+}
 .deep-dark-btn-on:focus{
     background: #0e0f0f;
     color: rgb(255, 255, 255);
