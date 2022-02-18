@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科协web组作业</title>
+    <style>
+        body{
+            background-image:linear-gradient(150deg, rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.925)),url("https://www.linngdu664.top/images/stone.png");
+        }
+        .container{
+            margin:100px;
+            border: 200px;
+            color: aliceblue;
+        }
+        #tt{
+            text-align: center;
+        }
+        #web{
+            text-shadow: 0 0 8px #006dfc,0 0 8px #006dfc,0 0 8px #006dfc;
+        }
+        .shake{
+            animation:shake 1s linear infinite;
+        }
+        .rgb{
+            animation:rgb 2s linear infinite;
+        }
+        @keyframes shake {
+            0%{transform: rotate(0deg);}
+            12.5%{transform: rotate(-5deg);}
+            37.5%{transform: rotate(5deg);}
+            50%{transform: rotate(0deg);}
+            100%{transform: rotate(0deg);}
+        }
+        @keyframes rgb {
+            0%{color: rgb(255, 0, 0);}
+            33%{color: rgb(0, 255, 0);}
+            66%{color: rgb(0, 0, 255);}
+            100%{color: rgb(255,0, 0);}
+        }
+        a{
+            color: rgb(158, 158, 255);
+        }
+        .red-btn {
+            background:#d63031;
+            border:1px solid #d63031;
+            color:#fff;
+            padding: 20px;
+            font-size: 20px;
+        }
+        .red-btn:hover,
+        .red-btn:focus {
+            background: none;
+            color: #d63031;
+            animation:shake 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="tt" class="shake">
+            科协<span id="web">web</span>组作业
+        </h1>
+        <hr>
+        <h2>格式</h2>
+        <p>
+            段落，没错这是一个&#60;p&#62;标签。下面是一个回车&#60;br&#62;<br>
+            这是有回车的证明
+        </p>
+        <h1>h1</h1><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6>
+        <hr>
+        <h2>文字</h2>
+        <p>
+            这是一个<span style="font-family: 宋体;">宋体</span>的字，这是一个<span style="font-weight:900;">很粗</span>的字，
+            这是一个<span style="color: rgb(51, 255, 0);">绿色</span>的字，这是一个<span class="rgb">炫光五彩</span>的字，
+            这是一个<a href="https://www.bilibili.com/" target="_blank">超链接</a>，这是一个把鼠标放上去会<u title="你看到了不该看的东西">有提示</u>的字
+        </p>
+        <hr>
+        <h2>图片</h2>
+        <img src="https://www.linngdu664.top/iimmgg/1.gif">
+        <hr>
+        <h2>音频</h2>
+        <audio src="https://www.linngdu664.top/iimmgg/1.mp3" controls></audio>
+        <p>(o゜▽゜)o&#32;不想社死的话别外放</p>
+        <hr>
+        <h2>视频</h2>
+        <video height="432" width="768" src="https://www.linngdu664.top/iimmgg/1.mp4" controls></video>
+        <hr>
+        <h2>按钮</h2>
+        <button id="rb" class="red-btn" onclick="ButtonClick();">
+            你肯定不会点我
+        </button>
+    </div>
+    <script>
+        function ButtonClick(){
+            document.getElementById("rb").innerHTML="你居然敢点我！";
+        }
+    </script>
+</body>
+</html>
