@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+.had{
+    display: inline-block;
+    height: 40px;
+}
+.bll{
+    display: inline;
+    float: left;
+    margin-top: 10px;
+}
+#fxff{
+    color: #e61077;
+    background-color: #ec9eb9;
+}
+#logo{
+    display: block;
+    margin: 0 auto;
+}
+.bii{
+    display: inline;
+    float: right;
+    margin-top: 3px;
+    font-weight: 600;
+}
+#zc{
+    color: #e61077;
+}
+#dl{
+    color: #e61077;
+}
+.ddl{
+    color: rgb(49,106,166);
+}
+.tab{
+    background-color: rgb(249,108,151);
+    height: 40px;
+}
+.tabb{
+    display:inline-block;
+}
+.tabi{
+    display: inline;
+    float: left;
+    padding: 10px;
+    color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.tabi:hover{
+    background-color: rgb(255,68,108);
+}
+.tabr{
+    padding: 3px;
+    display: inline;
+    float: right;
+    margin-top: 6px;
+    background-color: #fff;
+}
+#ttt{
+    border-width: 0px;
+}
+.mml{
+    padding: 80px;
+    background-color:#fff;
+}
+.zczc{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 7px;
+    border-color: rgb(194, 194, 194);
+}
+.ljzc{
+    background-color: rgb(249,108,151);
+    color: rgb(233, 233, 233);
+    width: 150px;
+}
+#pk{
+    color: rgb(249,108,151);
+}
+.zcl{
+    border-right: solid 2px rgb(209, 209, 209);
+}
+#hrr{
+    border-top: dotted 2px rgb(0, 0, 0);
+}
+.tp2{
+    margin: 3px;
+}
+.vv{
+    display: none;
+}
+.kg{
+    margin-top: 20px;
+}
+.np{
+    padding: 0px;
+}
+.fda{
+    background-color: #fff;
+}
+.sqtj{
+    margin-top:10px;
+}
+#gd{
+    float: right;
+    color: #646464;
+}
+.kdd{
+    color: #e61077;
+    background-color: #ec9eb9;
+    font-weight: 500;
+    padding: 3px;
+}
+.kff{
+    color: #e61077;
+}
+#hr2{
+    border-top: solid 2px rgb(212, 212, 212);
+    border-bottom: solid 2px rgb(212, 212, 212);
+    margin: 0px;
+}
+.ibox{
+    height: 400px;
+}
+.form1{
+    background-color: #fff;
+    height: 370px;
+    padding: 10px;
+}
+.lf{
+    float: right;
+}
+.sz{
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+.wb1{
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+}
+.bot1{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.shareBox{
+    width: 6.5%;
+    float: left;
+    padding: 5px;
+}
+.share{
+    border: solid 1px black;
+}
+.bot2{
+    background-color: #fff;
+}
+.botwb{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 黑体;
+    text-align: center;
+    margin-top: 10px;
+}
+.wbqq{
+    font-weight: 600;
+    font-size: 18px;
+}
+.das{
+    color: black;
+}
+.wz21{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(122, 122, 122);
+}
+.jcfx{
+    background-color: rgb(248, 50, 93);
+    color: rgb(233, 233, 233);
+    width: 350px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.gdjcan{
+    line-height: 60px;
+    font-size: 20px;
+}
+.foot{
+    background-color: rgb(216, 216, 216);
+}
+.box1{
+    float: left;
+}
+.boxx{
+    font-size: 18px;
+}
+.boxz{
+    color: rgb(129, 129, 129);
+    line-height: 30px;
+}
+.kkk{
+    display: block;
+    margin: 0 auto;
+}
+.kkkk{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+#hrrr{
+    border-top: dotted 2px rgb(0, 0, 0);
+    margin: 0;
+}
+.lsl{
+    text-align: center;
+    color: rgb(129, 129, 129);
+}

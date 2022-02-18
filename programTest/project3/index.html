@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美丽说</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css.css">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-12 col-lg-12 had">
+            <div class="bll">关注我们&nbsp</div>
+            <img class="bll" src="img/新浪微博.png" height="20px" width="20px">
+            <img class="bll" src="img/QQ空间.png" height="20px" width="20px">
+            <div class="bll" id="fxff">&nbsp4645万</div>
+            <a id="zc" class="bii btn btn-default" onclick="zcOnclick();">注册</a>
+            <a id="dl" class="bii btn btn-default" onclick="dlOnclick();">登录</a>
+            <a class="bii btn btn-default ddl"><img src="img/QQ2.png" height="20px" width="20px">QQ登录</a>
+            <a class="bii btn btn-default ddl"><img src="img/新浪微博.png" height="20px" width="20px">微博登录</a>
+            <img id="logo" src="img/logo.png">
+        </div>
+    </div>
+    <div class="tab">
+        <div class="container">
+            <div class="tabb col-md-12 col-lg-12">
+                <div class="tabi" onclick="syOnclick();">首页</div>
+                <div class="tabi">翻杂志</div>
+                <div class="tabi">今日最热</div>
+                <div class="tabi">衣服</div>
+                <div class="tabi">包包</div>
+                <div class="tabi">配饰</div>
+                <div class="tabi">家居</div>
+                <div class="tabi">口红美妆</div>
+                <div class="tabi">逛美妆</div>
+                <div class="tabi">搭配</div>
+                <div class="tabi">达人</div>
+                <div class="tabi">配牌</div>
+                <div class="tabi">福利社</div>
+                <div class="tabr">
+                    <input id="ttt" type="text" placeholder="搜宝贝、用户、杂志">
+                    <img id="ssfh" src="img/搜索符号.png" height="20px" width="20px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="zcmls" class="container mml vv">
+        <div class="col-md-7 col-lg-7 zcl">
+            <h1>注册美丽说</h1>
+            <hr id="hrr">
+            <input class="zczc" type="text" placeholder="电子邮箱">
+            <input class="zczc" type="text" placeholder="昵称">
+            <input class="zczc" type="text" placeholder="密码">
+            <form>
+                <label>&nbsp&nbsp男</label>
+                <input type="radio" value="m" checked>
+                <label>&nbsp女</label>
+                <input type="radio" value="f">
+            </form>
+            <br>
+            <input type="checkbox">
+            <label>同意美丽说注册条款</label>
+            <br>
+            <br>
+            <a class="btn btn-default ljzc" href="#" role="button">立即注册</a>
+            <a id="pk"href="#">忘记了密码？</a>
+        </div>
+        <div class="col-md-3 col-lg-3">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>用美丽说账号<a id="pk" href="#" onclick="dlOnclick();">&nbsp登录</a></p>
+            <br>
+            <p>您还能使用以下方式直接登录</p>
+            <img src="img/111.png">
+            <!-- <img class="tp2" src="img/新浪微博2.png">
+            <img class="tp2" src="img/QQ2.png">
+            <img class="tp2" src="img/淘宝2.png">
+            <img class="tp2" src="img/人人2.png">
+            <img class="tp2" src="img/网易2.png">
+            <img class="tp2" src="img/QQ微博2.png">
+            <img class="tp2" src="img/豆瓣2.png">
+            <img class="tp2" src="img/百度2.png"> -->
+        </div>
+    </div>
+    <div id="dlmls" class="container mml vv">
+        <div class="col-md-7 col-lg-7 zcl">
+            <h1>登录美丽说</h1>
+            <hr id="hrr">
+            <label>账号</label>
+            <input class="zczc" type="text" placeholder="注册时使用的邮箱或昵称 ">
+            <br>
+            <label>密码</label>
+            <input class="zczc" type="text">
+            <br>
+            <br>
+            <input type="checkbox">
+            <label>记住我（下次直接登录）</label>
+            <br>
+            <br>
+            <a class="btn btn-default ljzc" href="#" role="button">登录</a>
+            <a id="pk"href="#">忘记了密码？</a>
+        </div>
+        <div class="col-md-3 col-lg-3">
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>还没有美丽说账号<a id="pk" href="#" onclick="zcOnclick();">&nbsp立即注册</a></p>
+            <br>
+            <p>您还能使用以下方式直接登录</p>
+            <img src="img/111.png">
+            <!-- <img class="tp2" src="img/新浪微博2.png">
+            <img class="tp2" src="img/QQ2.png">
+            <img class="tp2" src="img/淘宝2.png">
+            <img class="tp2" src="img/人人2.png">
+            <img class="tp2" src="img/网易2.png">
+            <img class="tp2" src="img/QQ微博2.png">
+            <img class="tp2" src="img/豆瓣2.png">
+            <img class="tp2" src="img/百度2.png"> -->
+        </div>
+    </div>
+    <div id="zjm" class="container">
+        <div class="col-md-12 col-lg-12 kg">
+            <img src="img/1.jpg" width="100%">
+            <div class="col-md-12 col-lg-12 kg np fda">
+                <div class="col-md-8 col-lg-8 np">
+                    <img src="img/js1.jpg" width="100%">
+                </div>
+                <div class="col-md-4 col-lg-4 np">
+                    <div class="col-md-12 col-lg-12 sqtj">
+                        <b id="sqtj2">社区推荐</b>
+                        <a id="gd" href="#">更多>></a>
+                        <br><br>
+                        <a class="kdd">最热</a>
+                        <a class="kff">连衣裙</a>
+                        <a class="kff">背心裙</a>
+                        <a class="kff">坡跟鞋</a>
+                        <a class="kff">链条包</a>
+                        <br><br>
+                        <a class="kdd">衣服</a>
+                        <a class="kff">T恤</a>
+                        <a class="kff">防晒衫</a>
+                        <a class="kff">短裤</a>
+                        <a class="kff">雪绒衫</a>
+                        <a class="kff">半裙</a>
+                        <br><br>
+                        <a class="kdd">鞋子</a>
+                        <a class="kff">凉鞋</a>
+                        <a class="kff">坡跟鞋</a>
+                        <a class="kff">夹脚凉鞋</a>
+                        <a class="kff">粗跟鞋</a>
+                        <br><br>
+                        <a class="kdd">包包</a>
+                        <a class="kff">拿包</a>
+                        <a class="kff">单肩包</a>
+                        <a class="kff">链条包</a>
+                        <a class="kff">贝壳包</a>
+                        <br><br>
+                        <a class="kdd">配饰</a>
+                        <a class="kff">项链</a>
+                        <a class="kff">墨镜</a>
+                        <a class="kff">手环</a>
+                        <a class="kff">耳环</a>
+                        <br><br>
+                        <a class="kdd">家居</a>
+                        <a class="kff">手机壳</a>
+                        <a class="kff">床上用品</a>
+                        <a class="kff">拍立得</a>
+                        <a class="kff">行李箱</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-12 kg np">
+                <hr id="hr2">
+                <img src="img/今日最热11.png" alt="" height="60px" width="13%" onmouseover="over(this)" onmouseleave="leave(this)">
+                <img src="img/衣服榜11.png" alt="" height="60px" width="14%" onmouseover="over(this)" onmouseleave="leave(this)">
+                <img src="img/鞋子榜11.png" alt="" height="60px" width="14%" onmouseover="over(this)" onmouseleave="leave(this)">
+                <img src="img/包包榜11.png" alt="" height="60px" width="14%" onmouseover="over(this)" onmouseleave="leave(this)">
+                <img src="img/配饰榜11.png" alt="" height="60px" width="14%" onmouseover="over(this)" onmouseleave="leave(this)">
+                <img src="img/美容榜11.png" alt="" height="60px" width="14%" onmouseover="over(this)" onmouseleave="leave(this)">
+                <img src="img/家居榜11.png" alt="" height="60px" width="13%" onmouseover="over(this)" onmouseleave="leave(this)">
+                <hr id="hr2">
+            </div>
+            <div class="col-md-12 col-lg-12 kg np">
+                <h4 style="font-weight: 700;">今日必备单品</h4>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/2.jpg" alt="" width="100%">
+                        <b id="sqtj2">雪绒衫</b>
+                        <a class="lf sz" href="#">28076</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">清新雪纺，是初夏的白搭单品</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/3.jpg" alt="" width="100%">
+                        <b id="sqtj2">蕾丝衫</b>
+                        <a class="lf sz" href="#">28061</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">打造温柔气质最好的单品，梦幻、性感和柔美</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/4.jpg" alt="" width="100%">
+                        <b id="sqtj2">背心连衣裙</b>
+                        <a class="lf sz" href="#">28690</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">背心连衣裙</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/5.jpg" alt="" width="100%">
+                        <b id="sqtj2">百搭T恤</b>
+                        <a class="lf sz" href="#">32410</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">简单使用的T恤，一年四季都是衣橱的必备单品。</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/6.jpg" alt="" width="100%">
+                        <b id="sqtj2">手拿包</b>
+                        <a class="lf sz" href="#">11200</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">近几季层出不穷的手拿包将人们重新带回复古的手拿包时代。</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/7.jpg" alt="" width="100%">
+                        <b id="sqtj2">墨镜</b>
+                        <a class="lf sz" href="#">32800</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">展现个性的必备小物，时尚态度的最佳表达。</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/8.jpg" alt="" width="100%">
+                        <b id="sqtj2">坡跟凉鞋</b>
+                        <a class="lf sz" href="#">28760</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">舒适好走又凉爽，美丽从脚下开始！</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 ibox">
+                    <div class="form1">
+                        <img style="padding-bottom: 10px;" src="img/9.jpg" alt="" width="100%">
+                        <b id="sqtj2">戒指</b>
+                        <a class="lf sz" href="#">35900</a>
+                        <img class="lf" src="img/heart.png" alt="">
+                        <br>
+                        <br>
+                        <div class="wb1">用时尚的下午来低调表达你的品味！</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-12 bot1">
+                <p style="font-size: 20px;font-weight: 600;margin: 10px;"><span style="color: rgb(209, 0, 0);">更多精彩分享</span>等你来发现</p>
+                <div class="shareBox">
+                    <img class="share" src="img/share1.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share2.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share3.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share4.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share5.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share6.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share7.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share8.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share9.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share10.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share11.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share12.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share13.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share14.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share15.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share16.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share17.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share18.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share19.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share20.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share21.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share22.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share23.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share24.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share25.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share26.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share27.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share28.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share29.jpg" alt="" width="100%">
+                </div>
+                <div class="shareBox">
+                    <img class="share" src="img/share30.jpg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-12 bot2 kg">
+                <div class="botwb">3200万爱美丽MM，每天都有新分享！<a style="color: #e61077;" onclick="zcOnclick();">现在注册>></a></div>
+                <br>
+                <div class="wbqq" align="center">
+                    <a class="das"><img src="img/新浪微博.png" height="20px" width="20px">&nbsp微博登录&nbsp&nbsp</a>
+                    <a class="das"><img src="img/QQ2.png" height="20px" width="20px">&nbspQQ登录</a>
+                </div>
+                <br>
+                <div class="wz21">现在注册，跟朋友一起修炼美丽，每天分享怎样搭配，怎样化妆，哪里去买；记录我漂亮的一天，让改变发生！</div>
+                <br>
+                <a class="btn btn-default jcfx" href="#" role="button"><div class="gdjcan">更多精彩分享>></div></a>
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <div class="foot kg">
+        <br><br>
+        <div class="container">
+            <div class="col-md-12 col-lg-12">
+                <div class="box1" style="width: 100px;">
+                    <div class="boxx">发现美丽</div>
+                    <a class="boxz">挑衣服</a><br>
+                    <a class="boxz">翻杂志</a><br>
+                    <a class="boxz">看达人</a><br>
+                    <a class="boxz">逛店铺</a><br>
+                </div>
+                <div class="box1" style="width: 150px;">
+                    <div class="boxx">获取帮助</div>
+                    <a class="boxz">新手指南</a><br>
+                    <a class="boxz">网站地图</a><br>
+                    <a class="boxz">社区指导原则</a><br>
+                    <a class="boxz">意见反馈</a><br>
+                </div>
+                <div class="box1" style="width: 100px;">
+                    <div class="boxx">关于我们</div>
+                    <a class="boxz">关于美丽说</a><br>
+                    <a class="boxz">联系我们</a><br>
+                    <a class="boxz">加入美丽说</a><br>
+                    <a class="boxz">营销中心</a><br>
+                    <a class="boxz">隐私政策</a><br>
+                </div>
+                <div class="box1" style="width: 150px;">
+                    <div class="boxx">更多</div>
+                    <a class="boxz">下载IOS客户端</a><br>
+                    <a class="boxz">下载Android客户端</a><br>
+                    <a class="boxz">下载sougou输入法</a><br>
+                    <a class="boxz">每周热门话题</a><br>
+                    <a class="boxz">有趣链接</a><br>
+                </div>
+                <div class="box1" style="width: 200px;">
+                    <div class="boxx">关注我们</div>
+                    <a class="boxz"><img src="img/新浪微博.png" height="17px" width="17px">新浪微博</a>
+                    <a class="boxz"><img src="img/人人网2.png" height="17px" width="32px">公共主页</a><br>
+                    <a class="boxz"><img src="img/QQ微博.png" height="17px" width="17px">腾讯微博</a>
+                    <a class="boxz"><img src="img/QQ空间.png" height="17px" width="17px">QQ空间</a><br>
+                    <a class="boxz"><img src="img/网易微博.png" height="17px" width="17px">网易微博</a>
+                    <a class="boxz"><img src="img/豆瓣网.png" height="17px" width="17px">豆瓣</a><br>
+                    
+                </div>
+                <div class="box1" style="width: 300px">
+                    <img class="kkk" src="img/weixin.jpg" alt="" width="100px">
+                    <div class="kkkk">下载美丽说手机客户端</div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-12">
+                <br>
+                <hr id="hrrr" class="col">
+                <div class="lsl">
+                    Copyright&nbsp@2013&nbspMeilishuo.com电信与信息服务业经营许可证100798号企业法人营业执照京ICP备11031139号&nbsp京公网安备110108006045<br>
+                    客服邮箱：kefu@meilishuo.com&nbsp文明办网文明上网举报电话：<a href="#">010-82615762</a>违法不良信息举报中心
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    
+    <script src="js.js"></script>
+    
+</body>
+</html>
